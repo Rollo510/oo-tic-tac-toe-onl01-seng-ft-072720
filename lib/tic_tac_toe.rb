@@ -149,6 +149,8 @@ end
 def play
   while !over?
     turn
+  end
+  
   
 end
 
