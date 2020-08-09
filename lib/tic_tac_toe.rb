@@ -124,10 +124,7 @@ def draw?
 end
 
 def over?
-  if draw? && won?
-  else
-    false
-  end
+  won? || draw?
 end
 
 
