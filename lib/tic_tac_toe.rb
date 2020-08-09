@@ -128,7 +128,14 @@ def over?
 end
 
 def winner
-  if
+  if 
+  current_player == "X".won?
+  current_player
+  elsif
+  current_player == "O".won?
+  current_player
+  else
+    nil
 end
 
 
