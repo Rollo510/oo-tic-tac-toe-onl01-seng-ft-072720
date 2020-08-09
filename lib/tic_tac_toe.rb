@@ -122,9 +122,7 @@ end
 end
 
 def draw?
-  if @board.full? && !@board.won?
-    @board
-  end
+  !(won?) && (full?)
 end
 
 def over?
