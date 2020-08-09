@@ -128,15 +128,24 @@ def over?
 end
 
 def winner
-  if 
-  current_player == "X".won?
-  current_player
-  elsif
-  current_player == "O".won?
-  current_player
-  else
-    nil
-  end
+  WIN_COMBINATIONS.each do |win_array|
+    index_0 = win_array[0]
+    index_1 = win_array[1]
+    index_2 = win_array[2]
+    
+    position_1 = @board[index_0]
+    position_2 = @board[index_1]
+    position_3 = @board[index_2]
+    
+    if position_1 == "X" && position_2 == "X" && position_3 == "X"
+      "X"
+    elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
+      "O"
+    end
+end
+    return nil
+end
+
 end
 
 
