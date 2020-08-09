@@ -124,7 +124,7 @@ def draw?
 end
 
 def over?
-  draw? && won?  
+  !draw? && won?  
 end
 
 
