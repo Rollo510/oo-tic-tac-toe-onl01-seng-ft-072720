@@ -109,15 +109,15 @@ end
 #   end
 # end
 
-def full?
-  !@board.any? do |element|
-    element == " " 
-  end
-end
-
 # def full?
-#     !@board.any?{|x| x == "" || x == " "}
+#   !@board.any? do |element|
+#     element == " " 
 #   end
+# end
+
+def full?
+    !@board.any?{|x| x == "" || x == " "}
+  end
 
 end
 
