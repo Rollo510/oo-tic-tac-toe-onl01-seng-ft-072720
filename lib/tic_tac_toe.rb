@@ -122,7 +122,7 @@ def full?
 end
 
 def draw?
-  !@board.won? && @board.full?
+  !won? && full?
 end
 
 
