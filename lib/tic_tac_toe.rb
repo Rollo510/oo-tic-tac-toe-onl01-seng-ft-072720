@@ -136,6 +136,7 @@ def winner
   current_player
   else
     nil
+  end
 end
 
 
