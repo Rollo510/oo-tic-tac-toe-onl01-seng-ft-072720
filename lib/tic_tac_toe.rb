@@ -147,6 +147,8 @@ def winner
 end
 
 def play
+   !over?
+    turn
   
 end
 
