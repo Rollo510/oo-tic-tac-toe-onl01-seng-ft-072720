@@ -122,7 +122,11 @@ def full?
 end
 
 def draw?
-  !won? && full?
+  if !won? && full?
+    return true
+  else
+    return false
+  end
 end
 
 def over?
