@@ -123,6 +123,10 @@ def draw?
   !won? && full?
 end
 
+def over?
+  full? && won?  
+end
+
 
 end
 
