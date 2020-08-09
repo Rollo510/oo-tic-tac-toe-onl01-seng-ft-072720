@@ -147,7 +147,7 @@ def winner
 end
 
 def play
-   !over?
+  while !over?
     turn
   
 end
