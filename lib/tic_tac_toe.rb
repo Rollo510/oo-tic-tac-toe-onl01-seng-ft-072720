@@ -146,7 +146,9 @@ def winner
     return nil
 end
 
-
+def play
+  
+end
 
 end
 
