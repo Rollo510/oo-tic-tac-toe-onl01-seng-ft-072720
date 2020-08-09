@@ -95,9 +95,9 @@ def won?
     position_3 = @board[index_2]
     
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
-      return win_array
+      win_array
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-      return win_array
+      win_array
     end
 end
     return false
