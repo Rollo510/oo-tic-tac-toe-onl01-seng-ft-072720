@@ -129,11 +129,6 @@ def draw?
   end
 end
 
-def over?
-  
-end
-
-
 
 
 
